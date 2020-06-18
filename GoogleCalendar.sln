@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCalendarMobileApp.iOS", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCalendarMobileApp", "MyCalendarMobileApp\MyCalendarMobileApp\MyCalendarMobileApp.csproj", "{3C9791EE-04F6-4E71-A73F-9E6F14AD7456}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GoogleCalendarWithWebApp", "GoogleCalendarWithWebApp", "{46B1B0F2-7C0F-49AA-BC21-3439818D14C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GoogleCalendarWithCrossPlatform", "GoogleCalendarWithCrossPlatform", "{2D82DBFF-EEBD-4814-834D-D9B21110DD97}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -182,6 +186,14 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{10CF9EFD-7CDC-4619-83E5-D5AC9B38A787} = {46B1B0F2-7C0F-49AA-BC21-3439818D14C8}
+		{6F5D12A8-8B3A-4E1F-BBC4-B509ABC43936} = {46B1B0F2-7C0F-49AA-BC21-3439818D14C8}
+		{E513038B-43A9-4832-AE00-BCBFE26C604D} = {2D82DBFF-EEBD-4814-834D-D9B21110DD97}
+		{F6B0E4AF-5C47-4C97-B85C-494CCB0E5396} = {2D82DBFF-EEBD-4814-834D-D9B21110DD97}
+		{64757AB7-5A36-4247-89BA-C460ABA19414} = {2D82DBFF-EEBD-4814-834D-D9B21110DD97}
+		{3C9791EE-04F6-4E71-A73F-9E6F14AD7456} = {2D82DBFF-EEBD-4814-834D-D9B21110DD97}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1DBE9E8D-477B-47B3-AE2B-F128C59D60DC}
