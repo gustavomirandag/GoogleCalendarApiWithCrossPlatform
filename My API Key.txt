@@ -1,0 +1,15 @@
+
+
+ - Folks
+
+ - Primary and Replicas
+
+
+Client ID
+964623955427-vpm7f95q3ro31vmsc89i2eel1h308ovp.apps.googleusercontent.com
+
+Client Secret
+Irq1_mKkiNU9pDONgtIsVew2
+
+API KEY
+AIzaSyBo7CvIV-UeiSHBqVMRgaFC0UEPAhU4xIk

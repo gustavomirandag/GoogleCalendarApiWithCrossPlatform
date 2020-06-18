@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MyCalendarMobileApp.MainPage">
+
+    <StackLayout>
+        <DatePicker x:Name="DatePickerMeeting" />
+        <TimePicker x:Name="TimePickerMeeting" />
+        <Entry x:Name="EntryEventTitle" Placeholder="Enter event title" />
+        <Entry x:Name="EntryParticipants" Placeholder="Enter a participants email separated by ;"/>
+        <Button Text="Invite Participants to Meeting" Clicked="Button_Clicked" />
+    </StackLayout>
+
+</ContentPage>

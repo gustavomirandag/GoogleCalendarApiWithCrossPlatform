@@ -1,0 +1,24 @@
+﻿@model IEnumerable<String>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+    <div class="text-center">
+        <h1 class="display-4">Welcome</h1>
+        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+        <input type="button" value="Show Next Events from Google Calendar" onclick="javascript:window.location.href='/googleCalendarAuthorize'" />
+        <table>
+            @if (Model != null)
+            {
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item)
+                        </td>
+                    </tr>
+                }
+            }
+        </table>
+
+    </div>
